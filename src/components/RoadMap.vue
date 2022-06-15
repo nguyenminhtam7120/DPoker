@@ -5,10 +5,11 @@
         <div
           class="col-lg-4 col-12 d-flex align-items-center justify-content-center road-map"
         >
-          <h4 class="title-desc">ROADMAP</h4>
+          <h4 class="title-desc" data-aos="zoom-in-right" data-aos-duration="1000">ROADMAP</h4>
         </div>
         <div class="col-lg-8 col-12 road-map-items">
           <div
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
             class="road-map-node d-flex align-items-center justify-content-start py-3"
           >
             <div class="col-lg-2">
@@ -39,6 +40,7 @@
             </div>
           </div>
           <div
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"
             class="road-map-node d-flex align-items-center justify-content-start py-3 road-map-node-center"
           >
             <div class="col-lg-2">
@@ -81,6 +83,7 @@
             </div>
           </div>
           <div
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"
             class="road-map-node d-flex align-items-center justify-content-start py-3"
           >
             <div class="col-lg-2">

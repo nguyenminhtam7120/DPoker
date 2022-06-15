@@ -2,10 +2,10 @@
     <div id="outstandElement" class="outstand-element">
         <div class="container banner">
             <div class="outstand-elements p-3">
-                <h4 class="title-desc">CÁC YẾU TỐ NỔI BẬT</h4>
+                <h4 data-aos="fade-right" data-aos-duration="1000" class="title-desc">CÁC YẾU TỐ NỔI BẬT</h4>
                 <div class="outstand-box d-flex flex-wrap">
                     <div v-for="itemStand in listStanding" v-bind:key="itemStand.id" class="col-lg-4 col-sm-6 col-12 pe-4 pb-5">
-                        <div class="outstand-card">
+                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500" class="outstand-card">
                             <img :src="require('../assets/' + itemStand.imgURL)" alt="">
                             <div class="outstand-card-desc">
                                 <h5>{{itemStand.title}}</h5>

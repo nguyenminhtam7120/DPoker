@@ -32,7 +32,6 @@ import FooterComponent from "./components/Footer.vue";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

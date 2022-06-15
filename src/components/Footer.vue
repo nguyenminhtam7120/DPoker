@@ -232,6 +232,9 @@ export default {
     .trainslate-box {
         width: 200px;
     }
+    .trainslate-box:hover {
+        cursor: pointer;
+    }
     .trainslate-box img {
         height: 40px;
     }

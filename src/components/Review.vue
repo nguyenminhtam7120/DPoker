@@ -1,10 +1,10 @@
 <template>
     <div class="container-fluid banner">
         <div class="d-flex flex-wrap justify-content-center review">
-            <div class="col-lg-6 col-12 review-img">
+            <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-6 col-12 review-img">
                 <img src="../assets/review.png" alt="">
             </div>
-            <div class="review-content col-lg-6 col-12 px-5">
+            <div data-aos="fade-up" data-aos-duration="1000" class="review-content col-lg-6 col-12 px-5">
                 <div class="d-flex flex-column justify-content-between align-items-start pe-5">
                     <h4 class="title-desc">GIỚI THIỆU VỀ DPOKER </h4>
                     <p class="reivew-company-content">Được phát triển bởi đội ngũ những người yêu thích Poker truyền thống, DPOKER  được tạo ra như

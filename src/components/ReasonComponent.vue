@@ -2,14 +2,14 @@
   <div id="reason">
     <div class="container">
       <div class="reason-choose">
-        <h4 class="title-desc text-center">TẠI SAO NÊN THAM GIA DPOKER</h4>
+        <h4 data-aos="zoom-in" data-aos-duration="1000" class="title-desc text-center">TẠI SAO NÊN THAM GIA DPOKER</h4>
         <div class="d-flex justify-content-lg-center flex-wrap">
           <div
             v-for="itemReason in listReasons"
             v-bind:key="itemReason.id"
             class="col-lg-4 col-md-6 col-12 px-4 pt-5"
           >
-            <div class="reasion-card text-center">
+            <div class="reasion-card text-center" data-aos="zoom-in" data-aos-duration="1500">
               <img
                 :src="require('../assets/' + itemReason.imgURL)"
                 :key="itemReason.id"
