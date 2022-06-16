@@ -1,12 +1,12 @@
 <template>
   <div class="faq">
     <div class="container">
-      <h4 data-aos="zoom-in" data-aos-duration="1000" class="title-desc text-center">FAQs</h4>
+      <h4 data-aos="zoom-in" data-aos-duration="2000" class="title-desc text-center">FAQs</h4>
       <div class="fag-box d-flex justify-content-center">
         <div class="faq-list-items col-lg-8 col-md-10 col-11">
           <div v-for="faqItem in listFAQs" v-bind:key="faqItem.id">
             <div
-              data-aos="zoom-in" data-aos-duration="1000"
+              data-aos="zoom-in" data-aos-duration="2000"
               @click="showAnswers(faqItem.id);"
               class="faq-item p-3 my-4 d-flex align-items-center justify-content-between"
             >
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <h4 data-aos="zoom-in" data-aos-duration="1000" class="title-desc text-center title-special pb-2">MEDIA SHOUTOUTS</h4>
+      <h4 data-aos="zoom-in" data-aos-duration="2000" class="title-desc text-center title-special pb-2">MEDIA SHOUTOUTS</h4>
     </div>
   </div>
 </template>

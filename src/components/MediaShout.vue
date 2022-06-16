@@ -3,7 +3,7 @@
         <div class="container">
             <div class="d-flex align-items-center justify-content-center">
                 <div class="col-lg-9 d-flex flex-wrap media-shout-item">
-                    <div data-aos="zoom-in" data-aos-duration="1000" v-for="mediaItem in mediaShouts" v-bind:key="mediaItem.id" class="col-lg-4 col-sm-6 col-12 p-3">
+                    <div data-aos="zoom-in" data-aos-duration="2000" v-for="mediaItem in mediaShouts" v-bind:key="mediaItem.id" class="col-lg-4 col-sm-6 col-12 p-3">
                         <img class="p-2" :src="require('../assets/' + mediaItem.imgURL)" v-bind:alt="mediaItem.desc">
                     </div>
                 </div>
